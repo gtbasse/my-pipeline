@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                zsh 'python --version'
+                sh 'python --version'
             }
         }
     }
